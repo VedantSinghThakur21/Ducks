@@ -10,6 +10,11 @@ abstract public class Duck {
 
     abstract public void display();
 
+    public void performQuack() {
+        quackBehaviour.quack(); //Note: We dont specify which Quack method we are calling
+    }
+
+
 
 
 }
