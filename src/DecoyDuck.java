@@ -1,7 +1,7 @@
 public class DecoyDuck extends Duck {
     public DecoyDuck(){
         quackBehaviour = new Quack();
-        swimBehaviour = new Floating();
+        swimBehaviour = new Drown();
         flyBehaviour = new NotFly();
 
 
