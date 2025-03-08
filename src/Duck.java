@@ -7,4 +7,9 @@ abstract public class Duck {
         this.quackBehaviour = quackBehaviour;
     }
 
+
+    abstract public void display();
+
+
+
 }
