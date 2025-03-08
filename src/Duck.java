@@ -18,6 +18,11 @@ abstract public class Duck {
         this.swimBehaviour = swimBehaviour;
     }
 
+    public void performSwim() {
+
+        swimBehaviour.swim();
+    }
+
 
 
 
