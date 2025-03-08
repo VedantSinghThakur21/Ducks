@@ -14,6 +14,11 @@ abstract public class Duck {
         quackBehaviour.quack(); //Note: We dont specify which Quack method we are calling
     }
 
+    public void setSwimBehaviour(SwimBehaviour swimBehaviour) {
+        this.swimBehaviour = swimBehaviour;
+    }
+
+
 
 
 
