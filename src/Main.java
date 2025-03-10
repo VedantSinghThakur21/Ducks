@@ -1,6 +1,6 @@
 //Name - Vedant Singh Thakur
 // PRN - 23070126144
-// batch - AIML B3
+// Batch - AIML B3
 public class Main {
     public static void main(String[] args) {
         MallardDuck md = new MallardDuck();
